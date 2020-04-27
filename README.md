@@ -47,24 +47,24 @@ So for PayPal you just need to set your IPN - Instant Payment Notifier to the UR
 So your gonna need to make a new Custom Integration on LGL (Settings -> Integration Settings, Add new Integration)
 
 Then for the custom fields - use these (You can add more, but these are preset):
-	`record_id
-	Title
-	FirstName
-	LastName
-	Email
-	Phone
-	StreetAddress
-	City
-	State
-	ZIP
-	Country
-	PaymentAmount
-	GiftDate
-	DepositDate
-	PaymentMethod
-	PaymentRefNumber
-	PaymentNotes
-	CampaignName`
+	- record_id
+	- Title
+	- FirstName
+	- LastName
+	- Email
+	- Phone
+	- StreetAddress
+	- City
+	- State
+	- ZIP
+	- Country
+	- PaymentAmount
+	- GiftDate
+	- DepositDate
+	- PaymentMethod
+	- PaymentRefNumber
+	- PaymentNotes
+	- CampaignName
 
 Then grab the URL it gives you and stick it in the Config.php file.
 
