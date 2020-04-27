@@ -1,11 +1,11 @@
 # Auto Tax Reciept PDF Generator with LGL Custom Integration
 
-Project: Auto Tax Reciept PDF Generator with LGL Custom Integration
-Code Version: 1.2
-Author: Benjamin Sommer (BenSommer.net) for The Berman Consulting Group (BermanGroup.com)
-GitHub: https://github.com/remmosnimajneb
-Theme Design by: `Hypothesis` by AJ at Pixelarity.com
-Licensing Information: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+- Project: Auto Tax Reciept PDF Generator with LGL Custom Integration
+- Code Version: 1.2
+- Author: Benjamin Sommer (BenSommer.net) for The Berman Consulting Group (BermanGroup.com)
+- GitHub: https://github.com/remmosnimajneb
+- Theme Design by: `Hypothesis` by AJ at Pixelarity.com
+- Licensing Information: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Table of Contents:
 1. Overview
@@ -47,7 +47,7 @@ So for PayPal you just need to set your IPN - Instant Payment Notifier to the UR
 So your gonna need to make a new Custom Integration on LGL (Settings -> Integration Settings, Add new Integration)
 
 Then for the custom fields - use these (You can add more, but these are preset):
-	record_id
+	`record_id
 	Title
 	FirstName
 	LastName
@@ -64,7 +64,7 @@ Then for the custom fields - use these (You can add more, but these are preset):
 	PaymentMethod
 	PaymentRefNumber
 	PaymentNotes
-	CampaignName
+	CampaignName`
 
 Then grab the URL it gives you and stick it in the Config.php file.
 
